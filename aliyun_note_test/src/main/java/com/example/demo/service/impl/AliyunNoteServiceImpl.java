@@ -21,9 +21,11 @@ import org.springframework.stereotype.Service;
 public class AliyunNoteServiceImpl implements IAliyunNoteService {
 
 
-    private static final String  accessKeyId = "LTAI5tA8MG6ZnPLu3nNPR9YA";
+    
+    //两者须在aliyun官网自行获取
+    private static final String  accessKeyId = "*****************";
 
-    private static final String accessKeySecret = "TmtibouNVeJ495XK852AA0a7LcPUvy";
+    private static final String accessKeySecret = "*************************";
 
 
     @Override
